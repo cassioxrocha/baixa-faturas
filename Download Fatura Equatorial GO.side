@@ -1,0 +1,633 @@
+{
+  "id": "dc692422-dca0-47d1-aedb-63cf4bb02b51",
+  "version": "2.0",
+  "name": "Download Fatura Equatorial GO",
+  "url": "https://goias.equatorialenergia.com.br",
+  "tests": [{
+    "id": "c5209c1b-87bf-435f-8d2a-c69362dc2c6a",
+    "name": "PF sem Fatuas",
+    "commands": [{
+      "id": "878151e4-14b6-4236-a337-ea5f53a6e01a",
+      "comment": "",
+      "command": "open",
+      "target": "/LoginGO.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab5cd904-5779-4de9-a54f-59e603c24ff5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ece8ae9a-7d43-49fd-b84b-95f36e72af61",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtUC",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtUC", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtUC", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtUC", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtUC']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "169748fc-fe6c-4219-b933-f28d5c5fe5fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtUC",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtUC", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtUC", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtUC", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtUC']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "690381554"
+    }, {
+      "id": "4490d0d8-f403-45a7-a2cf-273c365649c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtDocumento",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtDocumento", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtDocumento", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtDocumento", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtDocumento']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "733edf35-9e1f-4486-bf13-4584b44ed412",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtDocumento",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtDocumento", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtDocumento", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtDocumento", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtDocumento']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "701.475.586-20"
+    }, {
+      "id": "06aa7b31-fee3-4c4f-ab3c-7875de8c55b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2)",
+      "targets": [
+        ["css=.button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ce9f23-12cd-4066-8031-d140d0bda5b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtData",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtData", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtData", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtData", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtData']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5c24de-fd6f-4435-a7e7-b8ca1f1fc3ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtData",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtData", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtData", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtData", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtData']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "22/11/1968"
+    }, {
+      "id": "815aa5cd-4164-45b7-b1e7-302c8b365127",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_btnValidar",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_btnValidar", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$btnValidar", "name"],
+        ["css=#WEBDOOR_headercorporativogo_btnValidar", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_btnValidar']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1cf42a-920c-42de-b21c-2e38c712c373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ModalButton",
+      "targets": [
+        ["css=.ModalButton", "css:finder"],
+        ["xpath=//div[@id='upModal_promocao']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aae885b-8e7c-4bbf-8f50-eb14ab93357a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) > label",
+      "targets": [
+        ["css=.item:nth-child(1) > label", "css:finder"],
+        ["xpath=//form[@id='ctl05']/div[6]/div/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Contas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b3fbfaf-6b9a-45ee-aabc-5a782b428e08",
+      "comment": "",
+      "command": "click",
+      "target": "id=LinkSegundaVia",
+      "targets": [
+        ["id=LinkSegundaVia", "id"],
+        ["linkText=Segunda Via de Fatura", "linkText"],
+        ["css=#LinkSegundaVia", "css:finder"],
+        ["xpath=//a[contains(text(),'Segunda Via de Fatura')]", "xpath:link"],
+        ["xpath=//a[@id='LinkSegundaVia']", "xpath:attributes"],
+        ["xpath=//form[@id='ctl05']/div[6]/div/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'AgenciaGO/Servi%C3%A7os/aberto/SegundaVia.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Segunda Via de Fatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "227b9191-33e9-4ed1-9168-c1c65577cad9",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [
+        ["id=CONTENT_cbTipoEmissao", "id"],
+        ["name=ctl00$CONTENT$cbTipoEmissao", "name"],
+        ["css=#CONTENT_cbTipoEmissao", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-439.33331298828125,-229"
+    }, {
+      "id": "11449c97-a8f6-48f2-aeaf-24ff2c44264b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [
+        ["id=CONTENT_cbTipoEmissao", "id"],
+        ["name=ctl00$CONTENT$cbTipoEmissao", "name"],
+        ["css=#CONTENT_cbTipoEmissao", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-439.33331298828125,-229"
+    }, {
+      "id": "07db3ae5-a295-4cc4-a127-af76e962e85c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [
+        ["id=CONTENT_cbTipoEmissao", "id"],
+        ["name=ctl00$CONTENT$cbTipoEmissao", "name"],
+        ["css=#CONTENT_cbTipoEmissao", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-439.33331298828125,-229"
+    }, {
+      "id": "5cf91aca-9f58-4979-adbe-606dfb834bc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [
+        ["id=CONTENT_cbTipoEmissao", "id"],
+        ["name=ctl00$CONTENT$cbTipoEmissao", "name"],
+        ["css=#CONTENT_cbTipoEmissao", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1d5dc22-c3d7-4b5c-aa3a-05d0f6004e8b",
+      "comment": "",
+      "command": "select",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [],
+      "value": "label=Emitir fatura completa"
+    }, {
+      "id": "e8fee0d7-cae1-4b2d-bb17-688824ab447b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CONTENT_cbTipoEmissao > option:nth-child(2)",
+      "targets": [
+        ["css=#CONTENT_cbTipoEmissao > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='completa']", "xpath:attributes"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Emitir fatura completa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a41ab2bc-4c1a-460d-bdd4-e8bef171ea3c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [
+        ["id=CONTENT_cbMotivo", "id"],
+        ["name=ctl00$CONTENT$cbMotivo", "name"],
+        ["css=#CONTENT_cbMotivo", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[3]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-437.33331298828125,-334"
+    }, {
+      "id": "6d0a9480-5070-495a-838d-11c5d54ad50f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [
+        ["id=CONTENT_cbMotivo", "id"],
+        ["name=ctl00$CONTENT$cbMotivo", "name"],
+        ["css=#CONTENT_cbMotivo", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[3]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-437.33331298828125,-334"
+    }, {
+      "id": "55fd9fd1-4499-4a75-aee1-61e7bb7d2b40",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [
+        ["id=CONTENT_cbMotivo", "id"],
+        ["name=ctl00$CONTENT$cbMotivo", "name"],
+        ["css=#CONTENT_cbMotivo", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[3]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": "-437.33331298828125,-334"
+    }, {
+      "id": "8ec060d1-00b2-47fc-ba88-dfc6df80f4df",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [
+        ["id=CONTENT_cbMotivo", "id"],
+        ["name=ctl00$CONTENT$cbMotivo", "name"],
+        ["css=#CONTENT_cbMotivo", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[3]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96de1edc-01a0-402c-8c89-322e8a279130",
+      "comment": "",
+      "command": "select",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [],
+      "value": "label=Não recebeu a fatura"
+    }, {
+      "id": "d6cfae83-81cd-4b80-8a11-a5a06aeac369",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CONTENT_cbMotivo > option:nth-child(2)",
+      "targets": [
+        ["css=#CONTENT_cbMotivo > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='ESV03']", "xpath:attributes"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Não recebeu a fatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e7036ce-1544-4d0e-9d03-9cf59a98e357",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_btEnviar",
+      "targets": [
+        ["id=CONTENT_btEnviar", "id"],
+        ["name=ctl00$CONTENT$btEnviar", "name"],
+        ["css=#CONTENT_btEnviar", "css:finder"],
+        ["xpath=//input[@id='CONTENT_btEnviar']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[4]/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0ce5364b-9a29-428c-8afc-2007ca9e5d0d",
+    "name": "PF com Faturas",
+    "commands": [{
+      "id": "cd70f698-2cbe-49f8-934f-c675a0b13653",
+      "comment": "",
+      "command": "open",
+      "target": "/LoginGO.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c14ec2e0-192b-4d82-94bf-4680d2eff206",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4d0705f-2ba1-4263-98d5-30a1803014c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtUC",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtUC", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtUC", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtUC", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtUC']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c465a2-7d80-4b19-95bb-0a42a139f220",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtUC",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtUC", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtUC", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtUC", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtUC']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "690268117"
+    }, {
+      "id": "2289fd05-fd86-4aeb-ba6f-1868e37a02ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtDocumento",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtDocumento", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtDocumento", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtDocumento", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtDocumento']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c6faa6-4318-4415-bdfd-e6486e250dd7",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtDocumento",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtDocumento", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtDocumento", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtDocumento", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtDocumento']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "701.475.586-20"
+    }, {
+      "id": "7e6190f7-0c8a-4028-9be5-0719a8136b1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2)",
+      "targets": [
+        ["css=.button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divLogin']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "041d4f70-bc5c-48e9-91f8-92de35fab166",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_txtData",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtData", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtData", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtData", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtData']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85105dcc-0281-49c0-8d8a-5e601210118b",
+      "comment": "",
+      "command": "type",
+      "target": "id=WEBDOOR_headercorporativogo_txtData",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_txtData", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$txtData", "name"],
+        ["css=#WEBDOOR_headercorporativogo_txtData", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_txtData']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "22/11/1968"
+    }, {
+      "id": "4ddf2b3a-65bd-4539-819d-42c4219cee3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=WEBDOOR_headercorporativogo_btnValidar",
+      "targets": [
+        ["id=WEBDOOR_headercorporativogo_btnValidar", "id"],
+        ["name=ctl00$WEBDOOR$headercorporativogo$btnValidar", "name"],
+        ["css=#WEBDOOR_headercorporativogo_btnValidar", "css:finder"],
+        ["xpath=//input[@id='WEBDOOR_headercorporativogo_btnValidar']", "xpath:attributes"],
+        ["xpath=//div[@id='WEBDOOR_headercorporativogo_divTeste']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f922c419-faeb-48af-bc4e-d52d3034c0e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ModalButton",
+      "targets": [
+        ["css=.ModalButton", "css:finder"],
+        ["xpath=//div[@id='upModal_promocao']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8943cf6a-a64d-43b2-af55-f81564ac1e11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) > label",
+      "targets": [
+        ["css=.item:nth-child(1) > label", "css:finder"],
+        ["xpath=//form[@id='ctl05']/div[6]/div/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Contas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc38dde-12c5-4a26-847c-f9384044758e",
+      "comment": "",
+      "command": "click",
+      "target": "id=LinkSegundaVia",
+      "targets": [
+        ["id=LinkSegundaVia", "id"],
+        ["linkText=Segunda Via de Fatura", "linkText"],
+        ["css=#LinkSegundaVia", "css:finder"],
+        ["xpath=//a[contains(text(),'Segunda Via de Fatura')]", "xpath:link"],
+        ["xpath=//a[@id='LinkSegundaVia']", "xpath:attributes"],
+        ["xpath=//form[@id='ctl05']/div[6]/div/div/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'AgenciaGO/Servi%C3%A7os/aberto/SegundaVia.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Segunda Via de Fatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18fa9e6d-a5ab-4ef7-89a1-c0f642b7ea25",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [
+        ["id=CONTENT_cbTipoEmissao", "id"],
+        ["name=ctl00$CONTENT$cbTipoEmissao", "name"],
+        ["css=#CONTENT_cbTipoEmissao", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[2]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cd6d057-a429-4227-9d66-2a0038c874b6",
+      "comment": "",
+      "command": "select",
+      "target": "id=CONTENT_cbTipoEmissao",
+      "targets": [],
+      "value": "label=Emitir fatura completa"
+    }, {
+      "id": "d64fd60a-8bea-42a4-86a1-524d2af6c0c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CONTENT_cbTipoEmissao > option:nth-child(2)",
+      "targets": [
+        ["css=#CONTENT_cbTipoEmissao > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='completa']", "xpath:attributes"],
+        ["xpath=//select[@id='CONTENT_cbTipoEmissao']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Emitir fatura completa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6d11ca-260a-440b-8e6e-c68033e3e011",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [
+        ["id=CONTENT_cbMotivo", "id"],
+        ["name=ctl00$CONTENT$cbMotivo", "name"],
+        ["css=#CONTENT_cbMotivo", "css:finder"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[3]/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e03051-f587-4b2f-9cbe-27c5f746cd2d",
+      "comment": "",
+      "command": "select",
+      "target": "id=CONTENT_cbMotivo",
+      "targets": [],
+      "value": "label=Não recebeu a fatura"
+    }, {
+      "id": "450a73f4-8353-4b80-b82e-d2b42e0ec0d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CONTENT_cbMotivo > option:nth-child(2)",
+      "targets": [
+        ["css=#CONTENT_cbMotivo > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='ESV03']", "xpath:attributes"],
+        ["xpath=//select[@id='CONTENT_cbMotivo']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Não recebeu a fatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71ad068-0f92-4559-8be6-7dcaaa16bb2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_btEnviar",
+      "targets": [
+        ["id=CONTENT_btEnviar", "id"],
+        ["name=ctl00$CONTENT$btEnviar", "name"],
+        ["css=#CONTENT_btEnviar", "css:finder"],
+        ["xpath=//input[@id='CONTENT_btEnviar']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[2]/div[2]/div[4]/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d7c0d25-15e3-4317-b7de-a86241998dfc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=tr:nth-child(2) > td:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript: window.location.href = '/AgenciaGO/Serviços/aberto/mostrarFaturaCompleta.aspx?invoice=0';\"]", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPage']/div[3]/div/table/thead/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f7f77f-f71b-42f7-b4f3-d074300fb2d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=CONTENT_btnModal",
+      "targets": [
+        ["id=CONTENT_btnModal", "id"],
+        ["name=ctl00$CONTENT$btnModal", "name"],
+        ["css=#CONTENT_btnModal", "css:finder"],
+        ["xpath=//input[@id='CONTENT_btnModal']", "xpath:attributes"],
+        ["xpath=//div[@id='FaturaCompletaModalProtocolo']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "123cfaa0-fdbe-4f42-91ff-704d58b5a53f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5209c1b-87bf-435f-8d2a-c69362dc2c6a"]
+  }],
+  "urls": ["https://goias.equatorialenergia.com.br/"],
+  "plugins": []
+}
