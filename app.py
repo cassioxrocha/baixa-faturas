@@ -1,5 +1,8 @@
-from flask import Flask, request, jsonify
+print("Iniciando app.py")
 from test_pFcomFaturas import TestPFcomFaturas
+print("Importação feita com sucesso")
+
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
