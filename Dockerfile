@@ -21,9 +21,14 @@ RUN wget -O- https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor >
     && apt-get install -y google-chrome-stable
 
 # Instala o ChromeDriver
-RUN CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1) \
-    && wget -O /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/${CHROME_VERSION}.0/chromedriver_linux64.zip" \
+RUN set -x \
+    && CHROME_VERSION=$(google-chrome --version | awk '{print $3}') \
+    && CHROMEDRIVER_VERSION=$(wget -qO- "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | \
+        python3 -c "import sys, json; v=sys.stdin.read(); j=json.loads(v); print(j['channels']['Stable']['version'])") \
+    && wget -O /tmp/chromedriver.zip "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/${CHROMEDRIVER_VERSION}/linux64/chromedriver-linux64.zip" \
     && unzip /tmp/chromedriver.zip -d /usr/local/bin/ \
+    && mv /usr/local/bin/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver \
+    && rm -rf /usr/local/bin/chromedriver-linux64 \
     && rm /tmp/chromedriver.zip
 
 # Instala dependências Python
