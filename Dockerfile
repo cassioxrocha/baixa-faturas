@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y \
     libgtk-3-0 \
     --no-install-recommends
 
-# Instala o Google Chrome
+# Instala o Google Chrome (sem apt-key)
+RUN apt-get update && apt-get install -y wget gnupg
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
     && apt-get update \
